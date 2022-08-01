@@ -1,12 +1,13 @@
 .flex-container {
-     display: flex;
-     justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .flex-container img {
     width: 250px;
     height: 250px;
-
 }
+
 body {
     margin: 20px;
     background-color: aliceblue
@@ -15,4 +16,17 @@ body {
 
 h1 {
     color:rgb(129, 6, 6)
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 50%;
 }
