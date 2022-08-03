@@ -4,8 +4,8 @@
     align-items: flex-start;
 }
 .flex-container img {
-    width: 250px;
-    height: 250px;
+    width: 25%;
+    height: 25%;
 }
 
 body {
@@ -34,9 +34,10 @@ p {display:block
 }
 caption {color:blue
 }
-table, th, td {
-    width: 30%;
-    margin-left: 70%;
+
+table,th,td {
     border:1px solid black;
+    width: 80%;
+    margin-left: 20%;
     
 }
